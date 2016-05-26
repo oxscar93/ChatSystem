@@ -55,7 +55,7 @@ namespace ChatSystem.Listeners
             }
             catch (Exception e)
             {
-                MessageBox.Show(e.Message + "--- The program will be closed");
+                MessageBox.Show(e.Message + "--- The program will be closed because previous errors");
                 Environment.Exit(0);             
             }
 
